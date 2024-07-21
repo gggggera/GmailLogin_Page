@@ -1,14 +1,10 @@
 package Login;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
 
 public class GmailLogin {
 
-    public static void main (String [] args) {
+    public static <WebDriver> void main (String [] args) {
 
         // Set the path to the ChromeDriver executable
         System.setProperty("webdriver.chrome.driver", "D:\\chromedriver-win64\\chromedriver.exe");
